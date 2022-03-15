@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_vertical"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/ivhospital"
+            android:onClick="ClickRS"
+            android:layout_width="match_parent"
+            android:layout_height="307dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/hospital" />
+
+        <ImageView
+            android:id="@+id/iveducation"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/education" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/ivpolice"
+            android:layout_width="match_parent"
+            android:layout_height="307dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/police" />
+
+        <ImageView
+            android:id="@+id/ivsupermarket"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/supermarket" />
+
+
+
+
+    </TableRow>
+</LinearLayout>
